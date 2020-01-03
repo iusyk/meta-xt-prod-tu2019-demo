@@ -22,7 +22,7 @@ RDEPENDS_${PN} += " \
 	qtwebsockets-qmlplugins \
 "
 
-VISSERVER = "127.0.0.1    wwwivi"
+VISSERVER = "10.0.0.1    wwwivi"
 
 pkg_postinst_ontarget_${PN} () {
     if ! grep -q '${VISSERVER}' $D${sysconfdir}/hosts ; then

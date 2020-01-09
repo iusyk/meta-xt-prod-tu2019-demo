@@ -48,7 +48,7 @@ configure_versions_rcar() {
     local local_conf="${S}/build/conf/local.conf"
 
     cd ${S}
-    base_update_conf_value ${local_conf} PREFERRED_VERSION_xen "4.12.0+git\%"
+    base_update_conf_value ${local_conf} PREFERRED_VERSION_xen "4.13.0+git\%"
     base_update_conf_value ${local_conf} PREFERRED_VERSION_u-boot_rcar "v2018.09\%"
     base_update_conf_value ${local_conf} PREFERRED_VERSION_linux-renesas "4.14.75+git\%"
     base_update_conf_value ${local_conf} PREFERRED_VERSION_linux-libc-headers "4.14.75+git\%"

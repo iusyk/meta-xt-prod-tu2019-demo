@@ -104,6 +104,11 @@ configure_versions_rcar() {
         base_update_conf_value ${local_conf} AOS_VIS_PLUGINS "${AOS_VIS_PLUGINS}"
     fi
 
+    # Network manager to use (possible values: systemd, connman).
+    # Pay attention that connman produces network issues, sometimes random,
+    # so it can't be used on XT products.
+    base_update_conf_value ${local_conf} VIRTUAL-RUNTIME_net_manager "systemd"
+
     base_add_conf_value ${local_conf} ASSUME_PROVIDED "sync-native"
     base_add_conf_value ${local_conf} HOSTTOOLS "sync"
     base_add_conf_value ${local_conf} ASSUME_PROVIDED "bison-native"

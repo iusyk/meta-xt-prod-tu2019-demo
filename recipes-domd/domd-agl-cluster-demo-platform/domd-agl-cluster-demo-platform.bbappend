@@ -39,8 +39,8 @@ python do_domd_install_machine_overrides() {
 ################################################################################
 # Renesas R-Car
 ################################################################################
-SRCREV_agl-repo = "${AUTOREV}"
-SRCREV_img-proprietary = "${AUTOREV}"
+SRCREV_agl-repo = "halibut_8.0.6"
+SRCREV_img-proprietary = "ef1aa566d74a11c4d2ae9592474030a706b4cf39"
 
 GLES_VERSION_rcar = "1.10"
 

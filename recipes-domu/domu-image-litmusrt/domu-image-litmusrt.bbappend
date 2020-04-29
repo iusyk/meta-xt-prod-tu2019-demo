@@ -7,7 +7,7 @@ SRC_URI = " \
     repo://github.com/xen-troops/manifests;protocol=https;branch=master;manifest=prod_devel/domr.xml;scmdata=keep \
 "
 
-SRCREV = "${AUTOREV}"
+SRCREV = "0ae80f9b1afb4886e11d4c6edd4d6ddfb199adc2"
 
 configure_versions_base() {
     local local_conf="${S}/build/conf/local.conf"

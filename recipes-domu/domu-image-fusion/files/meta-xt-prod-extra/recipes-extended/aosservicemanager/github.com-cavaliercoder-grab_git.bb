@@ -5,7 +5,7 @@ GO_IMPORT = "github.com/cavaliercoder/grab"
 inherit go
 
 SRC_URI = "git://${GO_IMPORT};protocol=https;destsuffix=${PN}-${PV}/src/${GO_IMPORT}"
-SRCREV = "${AUTOREV}"
+SRCREV = "9f014744ee41e6bca139fe07601e65ac8b9c5109"
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=73a9fd187cdcda4e3009f73e69b5b348"
 PTEST_ENABLED = ""

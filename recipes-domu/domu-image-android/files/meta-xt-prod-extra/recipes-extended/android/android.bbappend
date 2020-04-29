@@ -1,4 +1,4 @@
-SRCREV = "${AUTOREV}"
+SRCREV = "c390d06c6c9fa57672fb8dae9d55fa2332847d75"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
